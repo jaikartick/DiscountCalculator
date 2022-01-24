@@ -1,5 +1,4 @@
-﻿using System;
-using DiscountCalculator.Controllers;
+﻿using DiscountCalculator.Controllers;
 using NUnit.Framework;
 
 namespace DiscountCalculator.UnitTests

@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Security.Claims;
-using System.Text;
 using System.Threading.Tasks;
 using DiscountCalculator.DataAccess.Interfaces;
 using DiscountCalculator.DomainModel.Models;
@@ -11,7 +6,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
 
 namespace DiscountCalculator.Controllers
 {
@@ -20,10 +14,10 @@ namespace DiscountCalculator.Controllers
     public class SignupController : ControllerBase
     {
         private readonly IUserRepository _userRepository;
-        private readonly ILogger<LoginController> _logger;
+        private readonly ILogger<SignupController> _logger;
         private readonly AppSettings _appSettings;
 
-        public SignupController(IUserRepository userRepository, ILogger<LoginController> logger, IOptions<AppSettings> appSettings)
+        public SignupController(IUserRepository userRepository, ILogger<SignupController> logger, IOptions<AppSettings> appSettings)
         {
             _logger = logger;
             _userRepository = userRepository;
@@ -66,7 +60,7 @@ namespace DiscountCalculator.Controllers
             await _userRepository.CommitAsync();
             user = await _userRepository.GetAsync(user.Id);
             var tokenDetail = Utilities.GetJwtTokenForUser(_appSettings, user.Id);
-            return Created(new Uri($"{Request.Path}/{user.Id}", UriKind.Relative), tokenDetail);
+            return Ok(tokenDetail);
         }
 
     }
