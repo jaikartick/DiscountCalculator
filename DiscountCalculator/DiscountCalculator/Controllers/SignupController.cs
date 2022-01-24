@@ -7,7 +7,6 @@ using System.Text;
 using System.Threading.Tasks;
 using DiscountCalculator.DataAccess.Interfaces;
 using DiscountCalculator.DomainModel.Models;
-using LoginController;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;

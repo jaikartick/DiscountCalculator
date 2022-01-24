@@ -20,7 +20,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
-namespace LoginController
+namespace DiscountController
 {
     public class Startup
     {
