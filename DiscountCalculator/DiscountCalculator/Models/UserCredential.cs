@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace LoginController
+namespace DiscountController
 {
     public class UserCredential
     {

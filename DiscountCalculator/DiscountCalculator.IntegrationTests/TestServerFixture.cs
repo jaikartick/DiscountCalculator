@@ -2,7 +2,6 @@
 using System.IO;
 using System.Net.Http;
 using DiscountCalculator.DomainModel.Context;
-using LoginController;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.PlatformAbstractions;
