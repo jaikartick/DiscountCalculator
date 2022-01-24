@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountCalculator", "DiscountCalculator\DiscountCalculator.csproj", "{4B5F0D70-8849-4FBC-9065-3255BEF9C772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountCalculator.DomainModel", "DiscountCalculator.DomainModel\DiscountCalculator.DomainModel.csproj", "{E0AF73A1-1CAA-44D8-B86D-DD3664150E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountCalculator.Database", "DiscountCalculator.Database\DiscountCalculator.Database.csproj", "{97968507-ACE9-4C7E-951B-91B94D213982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountCalculator.DataAccess", "DiscountCalculator.DataAccess\DiscountCalculator.DataAccess.csproj", "{68CC5B89-66A5-46C6-900D-C8BC48852BF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountCalculator.UnitTests", "DiscountCalculator.UnitTests\DiscountCalculator.UnitTests.csproj", "{C7F4554D-423F-4F7C-B423-46EADE34DD34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountCalculator.IntegrationTests", "DiscountCalculator.IntegrationTests\DiscountCalculator.IntegrationTests.csproj", "{A2F40B62-38E9-4F8F-8CBD-F96006768A00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B5F0D70-8849-4FBC-9065-3255BEF9C772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5F0D70-8849-4FBC-9065-3255BEF9C772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5F0D70-8849-4FBC-9065-3255BEF9C772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5F0D70-8849-4FBC-9065-3255BEF9C772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0AF73A1-1CAA-44D8-B86D-DD3664150E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0AF73A1-1CAA-44D8-B86D-DD3664150E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0AF73A1-1CAA-44D8-B86D-DD3664150E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0AF73A1-1CAA-44D8-B86D-DD3664150E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97968507-ACE9-4C7E-951B-91B94D213982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97968507-ACE9-4C7E-951B-91B94D213982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97968507-ACE9-4C7E-951B-91B94D213982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97968507-ACE9-4C7E-951B-91B94D213982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68CC5B89-66A5-46C6-900D-C8BC48852BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CC5B89-66A5-46C6-900D-C8BC48852BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CC5B89-66A5-46C6-900D-C8BC48852BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CC5B89-66A5-46C6-900D-C8BC48852BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F4554D-423F-4F7C-B423-46EADE34DD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F4554D-423F-4F7C-B423-46EADE34DD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F4554D-423F-4F7C-B423-46EADE34DD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F4554D-423F-4F7C-B423-46EADE34DD34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F40B62-38E9-4F8F-8CBD-F96006768A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F40B62-38E9-4F8F-8CBD-F96006768A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F40B62-38E9-4F8F-8CBD-F96006768A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F40B62-38E9-4F8F-8CBD-F96006768A00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4FF4778-E700-46AB-A26A-AA9EB03FA0CF}
+	EndGlobalSection
+EndGlobal
